@@ -25,7 +25,7 @@ function App() {
 						element={<ArticlesList />}
 					/>
 					<Route
-						path='/article'
+						path='/article/:name'
 						element={<Article />}
 					/>
 				</Routes>
